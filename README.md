@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Sea Monster Crowdfunding
 
-Submitted by: **Your Name Here**
+Submitted by: Shivani Prabhu
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Sea Monster Crowdfunding is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: 5 hours spent in total
 
 ## Required Features
 
@@ -33,12 +33,10 @@ GIF created with ...
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-
-Describe any challenges encountered while building the app.
-
+When building this app I ran into a few challenges. Sometimes I would confuse how to use the reduce and filter method which led me to forget to include an initial value of 0. This led to the line "Currently, 7 games remain unfunded." to say "Currently, [object Object]111111 games remain unfunded." Another issue that I encountered was my javaScript was running before the DOM elements existed which caused a null error. Another issue I dealt with was when I was working on the search bar, I had a class name instead of an id for the "search" div so when I used the getElementbyId it wasn't working because I had labelled it as a class. 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2025 Shivani Prabhu
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
